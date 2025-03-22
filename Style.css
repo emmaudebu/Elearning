@@ -4,6 +4,7 @@
   --primaryColor: #3b82f6;
   --secondaryColor: #020617;
   --primaryGreen: #16a34a;
+  --btncolor: #334155;
 }
 
 * {
@@ -13,4 +14,63 @@
 }
 body {
   font-family: "Inter", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+}
+.nav-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.search {
+  width: 622px;
+  height: 40px;
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+
+  border: 1px solid #334155;
+  border-radius: 8px;
+}
+.search input {
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.icons {
+  align-items: center;
+  display: flex;
+  width: 206px;
+  height: 40px;
+  gap: 24px;
+  & img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+}
+.sign-up {
+  width: 75px;
+  height: 40px;
+  padding: 10px;
+  background: #334155;
+  color: white;
+  border: 1px solid gray;
+}
+.sign-in {
+  width: 73px;
+  height: 40px;
+  padding: 10px;
 }
