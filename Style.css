@@ -299,10 +299,45 @@ nav {
   & section {
     width: 43px;
     height: 20px;
-
     display: flex;
     gap: 2px;
     align-items: center;
     justify-content: center;
+  }
+}
+.testimonial {
+  margin-block: 50px;
+}
+.titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    width: 308px;
+    height: 68px;
+    top: 80px;
+    left: 80px;
+  }
+  & span {
+    width: 56px;
+    height: 40px;
+    gap: 6px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: #94a3b8;
+    color: #fff;
+    cursor: pointer;
+  }
+  & .bx {
+    width: 24px;
+    height: 24px;
+    width: 6;
+    height: 12;
+    border-width: 2px;
   }
 }
