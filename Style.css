@@ -14,11 +14,15 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  padding-inline: 50px;
+}
+button {
+  cursor: pointer;
 }
 
 .container {
-  max-width: 1440px;
-  margin-inline: auto;
+  max-width: 1350px;
+  margin: auto;
 }
 
 nav {
@@ -48,6 +52,18 @@ nav {
   border: none;
   outline: none;
   cursor: pointer;
+}
+.section-title {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 30px;
+
+  & span {
+    color: #3b82f6;
+  }
 }
 .icons {
   align-items: center;
@@ -130,6 +146,7 @@ nav {
   justify-content: space-between;
   padding: 40px 80px;
   background: #f8fafc;
+  margin-block: 30px;
 
   & section {
     text-align: center;
@@ -155,18 +172,6 @@ nav {
   height: 296px;
   margin-bottom: 30px;
 
-  & .section-title {
-    width: 100%;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-block: 30px;
-
-    & span {
-      color: #3b82f6;
-    }
-  }
   .cat-card {
     width: 100%;
     text-align: center;
@@ -202,4 +207,48 @@ nav {
   align-items: center;
   margin-bottom: 20px;
   gap: 20px;
+  margin-right: 20px;
+}
+.course-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 338px;
+  gap: 8px;
+  border-width: 1px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0px 0px 8px 0px #3b82f61f;
+  & h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+  }
+  & small {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+  section {
+    width: 194px;
+    height: 20px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    & span {
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+  }
+}
+.top-course-section {
+  width: 100%;
 }
