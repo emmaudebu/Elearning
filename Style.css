@@ -341,3 +341,44 @@ nav {
     border-width: 2px;
   }
 }
+.testimonial-card {
+  margin-block: 30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  border-width: 1px;
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0px 0px 8px 0px #3b82f61f;
+
+  & > img {
+    margin-top: 10px;
+  }
+  & > .quote-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  & > p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-block: 10px;
+  }
+}
+.quote-name {
+  & p {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+  }
+}
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
