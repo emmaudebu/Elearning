@@ -430,13 +430,34 @@ nav {
 footer {
   height: 400px;
   padding-inline: 15%;
+  padding-block: 5%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  color: white;
-  background-color: var(--secondaryColor);
+  align-items: start;
+  color: #cbd5e1;
+
+  background: #1e293b;
+
+  & ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+    & li {
+      padding-top: 10px;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 160%;
+    }
+  }
 }
 .footer-abt {
   width: 416px;
   height: 161px;
+}
+.footer-abt p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  padding-top: 20px;
 }
