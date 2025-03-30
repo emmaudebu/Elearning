@@ -306,7 +306,11 @@ nav {
   }
 }
 .testimonial {
-  margin-block: 50px;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background: #f8fafc;
+  padding-inline: 20px;
 }
 .titles {
   display: flex;
@@ -382,3 +386,44 @@ nav {
   justify-content: space-between;
   gap: 20px;
 }
+.instructor-btn {
+  width: 338px;
+  height: 48px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--secondaryColor);
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
+.become-instructor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.instructor-text {
+  width: 549px;
+  height: 154px;
+  & > h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+  }
+  & > p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    padding-block: 10px;
+  }
+}
+
+.intructors {
+  margin-bottom: 90px;
+}
+
+.become-instructor
