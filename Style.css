@@ -14,7 +14,7 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  padding-inline: 50px;
+  /* padding-inline: 50px; */
 }
 button {
   cursor: pointer;
@@ -422,8 +422,21 @@ nav {
   }
 }
 
-.intructors {
+.become-instructor {
   margin-bottom: 90px;
+  padding-bottom: 30px;
 }
 
-.become-instructor
+footer {
+  height: 400px;
+  padding-inline: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: var(--secondaryColor);
+}
+.footer-abt {
+  width: 416px;
+  height: 161px;
+}
