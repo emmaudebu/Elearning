@@ -14,7 +14,6 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  padding-inline: 50px;
 }
 button {
   cursor: pointer;
@@ -23,6 +22,7 @@ button {
 .container {
   max-width: 1350px;
   margin: auto;
+  padding-inline: 50px;
 }
 
 nav {
@@ -306,7 +306,11 @@ nav {
   }
 }
 .testimonial {
-  margin-block: 50px;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background: #f8fafc;
+  padding-inline: 20px;
 }
 .titles {
   display: flex;
@@ -340,4 +344,120 @@ nav {
     height: 12;
     border-width: 2px;
   }
+}
+.testimonial-card {
+  margin-block: 30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  border-width: 1px;
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0px 0px 8px 0px #3b82f61f;
+
+  & > img {
+    margin-top: 10px;
+  }
+  & > .quote-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  & > p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-block: 10px;
+  }
+}
+.quote-name {
+  & p {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+  }
+}
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.instructor-btn {
+  width: 338px;
+  height: 48px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--secondaryColor);
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
+.become-instructor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.instructor-text {
+  width: 549px;
+  height: 154px;
+  & > h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+  }
+  & > p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    padding-block: 10px;
+  }
+}
+
+.become-instructor {
+  margin-bottom: 90px;
+  padding-bottom: 30px;
+}
+
+footer {
+  height: 400px;
+  padding-inline: 5%;
+  padding-block: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  color: #cbd5e1;
+
+  background: #1e293b;
+
+  & ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+    & li {
+      padding-top: 10px;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 160%;
+    }
+  }
+}
+.footer-abt {
+  width: 416px;
+  height: 161px;
+}
+.footer-abt p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  padding-top: 20px;
 }
